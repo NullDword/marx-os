@@ -1,6 +1,7 @@
 #pragma once
 
 #include <inttypes.h>
+#include <stddef.h>
 
 typedef unsigned int uint;
 
@@ -15,3 +16,5 @@ typedef int16_t  int16;
 
 typedef uint8_t uint8;
 typedef int8_t  int8;
+
+typedef size_t size;
